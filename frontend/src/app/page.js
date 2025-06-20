@@ -1,11 +1,10 @@
-// src/app/page.js
 'use client';
 
 import dynamic from 'next/dynamic';
 
 import ProjectManager from './components/ProjectManager';
 import ShapeProperties from './components/ShapeProperties';
-import Toolbar from './components/Toolbar';
+import Toolbar from './components/ToolBar';
 import { DrawingProvider } from './context/DrawingContext';
 
 // Dynamically import to avoid server-side rendering
