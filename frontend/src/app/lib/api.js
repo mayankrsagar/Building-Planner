@@ -1,5 +1,5 @@
 // src/app/lib/api.js
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://building-planner-pgom.onrender.com/api';
 
 export const createProject = async (name) => {
   const response = await fetch(`${API_URL}/projects`, {
